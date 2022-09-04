@@ -26,7 +26,7 @@ public class PessoaUsecase {
                             .nome(dto.getNome())
                             .password(dto.getPassword())
                             .email(dto.getEmail())
-                            .telefone(dto.getTelefone())
+                            .telefone(dto.getPhone())
                             .build()
             );
         } catch (DataIntegrityViolationException e) {
