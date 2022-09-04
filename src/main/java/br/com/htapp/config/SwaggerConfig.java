@@ -22,8 +22,8 @@ public class SwaggerConfig {
                 .build()
                 .apiInfo(new ApiInfoBuilder()
                         .version("1.0")
-                        .title("API Registro Atividade")
-                        .description("Servico para controle de registro atividade")
+                        .title("API Aubax")
+                        .description("Servicos para gerenciamento da aplicação")
                         .build());
     }
 }
